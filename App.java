@@ -30,7 +30,7 @@ public class App {
             weight = input.nextDouble();
             newWeight = weight * 0.453592;
             System.out.printf("The new weight in kgs is: %.2f" , newWeight);
-        }
+        } // option 2 convert kgs to lbs
          else if(choise == 2){
             System.out.println("Enter the weight in kgs: ");
             weight = input.nextDouble();
@@ -43,10 +43,7 @@ public class App {
         input.close();
 
 
-        // option 2 conver kgs to lbs
-
-        // else print not a valid choise
-
+      
 
 
 
